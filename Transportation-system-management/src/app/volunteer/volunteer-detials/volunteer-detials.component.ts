@@ -7,7 +7,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 @Component({
   selector: 'app-volunteer-detials',
   templateUrl: './volunteer-detials.component.html',
-  styleUrl: './volunteer-detials.component.css'
+  styleUrl: './volunteer-detials.component.scss'
 })
 export class VolunteerDetialsComponent {
 

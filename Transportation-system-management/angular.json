@@ -60,6 +60,7 @@
               "buildTarget": "Transportation-system-management:build:production"
             },
             "development": {
+              "proxyConfig": "src/proxy.conf.json",
               "buildTarget": "Transportation-system-management:build:development"
             }
           },

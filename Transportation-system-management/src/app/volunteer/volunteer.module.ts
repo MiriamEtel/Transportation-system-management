@@ -9,7 +9,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [VolunteersListComponent,VolunteerDetialsComponent],
-  imports: [CommonModule,HttpClientModule,ReactiveFormsModule,FormsModule],
+  imports: [CommonModule,HttpClientModule,ReactiveFormsModule,FormsModule,],
   exports:[VolunteersListComponent,VolunteerDetialsComponent]
 })
 export class VolunteerModule { }
