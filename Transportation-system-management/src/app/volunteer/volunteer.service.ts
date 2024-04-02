@@ -10,18 +10,16 @@ export class VolunteerService {
     constructor(private _http: HttpClient)
     {    
     }
+getAll():Observable<Volunteer[]>{
+    return this._http.get<Volunteer[]>("/api/volunteer/all")
 
-    getVolunteer = (): Observable<Volunteer[]> =>
-    {
-        return this._http.get<Volunteer[]>("api/Volunteer");
-    }
-
-    deleteVolunteerFromServer = (id:number): Observable<Volunteer[]> =>
-    {
-        let list = this._http.delete<Volunteer[]>(`api/Volunteer/Delete/${id}`);
-        console.log(list);
-        return list;
-    }
+}
+getById(id:Number):Observable<Volunteer>{
+    return this._http.get<Volunteer>(`api/Volunteer/ById/${id}`);
+}
+update(volunteer:Volunteer):Observable<boolean>{
+    return this._http.put<boolean>(`/api/volunteer/update`,Volunteer)
+}
 
      
 

@@ -1,7 +1,7 @@
 <br>
-<h3>Volunteers List:</h3>
+<h1>volunterr list</h1>
 <ul class="list-group">
-    <li *ngFor="let volunteer of volunteersList" class="list-group-item" >
+    <li *ngFor="let volunteer of volunteers" class="list-group-item" >
         <div class="row">
             <div class="col-1">
                 {{volunteer.id}}
@@ -12,20 +12,10 @@
             <div class="col-2">
                 {{volunteer.lastName}}
             </div>
-            <div class="col-2">
-                phone: {{volunteer.phone}}
-            </div>
-            <div class="col-3">
-                address: {{volunteer.address}}
-            </div>
             <div class="col-1">
                 <button class="btn btn-primary" (click)="editVolunteer(volunteer)">Edit📑</button>
-            </div>
-            <div class="col-1">
-                <button class="btn btn-primary" (click)="deleteVolunteer(volunteer.id)">Delete❌</button>
             </div>
         </div>
     </li>
 </ul>
 <br>
-<div *ngIf="massege">The volunteer saved successfully!!!😄</div>

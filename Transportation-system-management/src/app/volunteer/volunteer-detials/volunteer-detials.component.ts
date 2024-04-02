@@ -28,19 +28,16 @@ export class VolunteerDetialsComponent {
         "id": new FormControl(this.volunteer?.id),
         "firstName": new FormControl(this.volunteer?.firstName, [Validators.minLength(2), Validators.required]),
         "lastName": new FormControl(this.volunteer?.lastName, [Validators.minLength(2), Validators.required]),
-        "phone": new FormControl(this.volunteer?.phone, [Validators.minLength(10), Validators.maxLength(11)]),
-        "address": new FormControl(this.volunteer?.address, Validators.minLength(3)),
       })
     }
   }
 
-  @Output()
-  onSaveVolunteer: EventEmitter<Volunteer> = new EventEmitter();
+
 
   VolunteerForm: FormGroup = new FormGroup({});
 
   saveNewVolunteer = () => {
     this.volunteer= this.VolunteerForm.value;
-    this.onSaveVolunteer.emit(this.volunteer)
+
   }
 }
