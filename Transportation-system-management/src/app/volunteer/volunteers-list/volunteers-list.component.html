@@ -1,21 +1,30 @@
-<br>
-<h1>volunterr list</h1>
+
+<h1>volunteer list</h1>
 <ul class="list-group">
-    <li *ngFor="let volunteer of volunteers" class="list-group-item" >
+    <li *ngFor="let volunteer of volunteers" 
+    class="list-group-item" 
+    style="display:flex;flex-direction:row;"
+
+    [ngClass]="{'list-list-group-item-success':volunteer.days,
+'list-list-list-group-item-danger':!volunteer.days}"
+[ngStyle]="{'color':volunteer.days?'green':'red'}"
+    >
         <div class="row">
-            <div class="col-1">
-                {{volunteer.id}}
+                volunteer:{{volunteer.id}}
+            </div>
+            <div class="col-3"></div>
+            <div class="col-3">
+               first name : {{volunteer.firstName}}
+            </div>
+            <div class="col-3">
+                last name{{volunteer.lastName}}
+            </div>
+            <div class="col-3" style="color: brown;">
+         <button class="btn btn-primary" (click)="editVolunteer(volunteer)">Edit📑</button>
             </div>
             <div class="col-2">
-                {{volunteer.firstName}}
-            </div>
-            <div class="col-2">
-                {{volunteer.lastName}}
-            </div>
-            <div class="col-1">
-                <button class="btn btn-primary" (click)="editVolunteer(volunteer)">Edit📑</button>
-            </div>
+                <button class="btn btn-primary" >delete</button>
+
         </div>
     </li>
 </ul>
-<br>

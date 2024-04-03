@@ -106,3 +106,30 @@ C:\Users\The user\Desktop\פרויקט באנגולר\server-project\obj\Debug\n
 C:\Users\The user\Desktop\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.pdb
 C:\Users\The user\Desktop\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.genruntimeconfig.cache
 C:\Users\The user\Desktop\פרויקט באנגולר\server-project\obj\Debug\net6.0\ref\my-server.dll
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\appsettings.Development.json
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\appsettings.json
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\my-server.exe
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\my-server.deps.json
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\my-server.runtimeconfig.json
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\my-server.dll
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\my-server.pdb
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\פרויקט באנגולר\server-project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.csproj.AssemblyReference.cache
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.GeneratedMSBuildEditorConfig.editorconfig
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.AssemblyInfoInputs.cache
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.AssemblyInfo.cs
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.csproj.CoreCompileInputs.cache
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.MvcApplicationPartsAssemblyInfo.cs
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.MvcApplicationPartsAssemblyInfo.cache
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\staticwebassets.build.json
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\staticwebassets.development.json
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\scopedcss\bundle\my-server.styles.css
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.csproj.CopyComplete
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.dll
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\refint\my-server.dll
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.pdb
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\my-server.genruntimeconfig.cache
+E:\פרויקט באנגולר\server-project\obj\Debug\net6.0\ref\my-server.dll

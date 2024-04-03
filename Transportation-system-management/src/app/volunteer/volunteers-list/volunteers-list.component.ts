@@ -1,9 +1,7 @@
 
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { Volunteer } from '../volunteer.model';
 import { VolunteerService } from '../volunteer.service';
-import { Observable, from } from 'rxjs';
-import { map, filter, take } from "rxjs/operators";
 import { Router } from '@angular/router';
 
 @Component({
@@ -11,7 +9,7 @@ import { Router } from '@angular/router';
   templateUrl: './volunteers-list.component.html',
   styleUrls :['./volunteers-list.component.scss']
 })
-export class VolunteersListComponent {
+export class VolunteersListComponent implements OnInit {
 
   constructor(private vs:VolunteerService,private router:Router){
 
@@ -20,6 +18,10 @@ export class VolunteersListComponent {
   ngOnInit(){
     this.vs.getAll().subscribe(val=> this.volunteers=val)
   }
-  volunteers:Volunteer[]=[];
-  editVolunteer()
+  volunteers: Volunteer[] = [];
+  
+  editVolunteer=(volunteer: Volunteer)=>{
+  this.router.navigate(['/volunteer/volunteer-detials',volunteer!.id])
+    
+  }
 }
