@@ -1,43 +1,72 @@
-
-import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Volunteer} from '../volunteer.model';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
-
+import { Component,EventEmitter,Input,OnInit,output } from '@angular/core';
+import { Volunteer } from '../volunteer.model';
+import { ActivatedRoute, Router } from '@angular/router';
+import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
+import { VolunteerService } from '../volunteer.service';
 
 @Component({
-  selector: 'app-volunteer-detials',
+  selector: 'app-volunteers-detial',
   templateUrl: './volunteer-detials.component.html',
-  styleUrl: './volunteer-detials.component.scss'
+  styleUrls :['./volunteer-detials.component.scss']
 })
-export class VolunteerDetialsComponent {
 
-  private _volunteer?: Volunteer;
+export class VolunteerDetialsComponent implements OnInit{
+  constructor(private _ar:ActivatedRoute,private vs :VolunteerService,private router :Router){
+  }
+   volunteerForm: FormGroup = new FormGroup({});
+    value:Number=0;
+    private _volunteer?:Volunteer;
+    formNotValid:boolean=false;
+    ngOnInit(){
+      this.value=parseInt(this._ar.snapshot.paramMap.get('id')?? '');
+      this.vs.getById(this.value).subscribe(val=>this.Volunteer=val)
+      
+    }
+    public get Volunteer():Volunteer| undefined{
+      return this.Volunteer;
+    }
 
+    public set Volunteer(value:Volunteer | undefined){
+      this.Volunteer=value;
+      if(value)
+      {
+        this.volunteerForm = new FormGroup({
+       firstName:new FormControl(this.Volunteer?.firstName,[Validators.required,Validators.maxLength(15)]),
+       lastName:new FormControl(this.Volunteer?.lastName,[Validators.required,Validators.maxLength(15)]),
+       tel:new FormControl(this.Volunteer?.tel),
+       Sun:new FormControl(this.Volunteer?.days[0]),
+       Mon:new FormControl(this.Volunteer?.days[1]),
+       Tues:new FormControl(this.Volunteer?.days[2]),
+       Wedn:new FormControl(this.Volunteer?.days[3]),
+       Thur:new FormControl(this.Volunteer?.days[4])
+       
+       });
+      }
+    }
+  saveVolunteer=()=>{
+    if (this.volunteerForm.valid) {
+      console.log("save..");
+      this.Volunteer=this.volunteerForm.value;
+      this.vs.update(this.Volunteer!).subscribe(val =>{this.isSaveSucceed(val)});
+      this.router.navigate(['/volunteer/volunteerList']);
+    }
+    else{
+      this.formNotValid=true;
+      console.log("didnt save..")
+    }
+  }
+    isSaveSucceed = (val: boolean) => {
+      if(val){
+
+      }
+      else{
+
+      }
+    }
+  }
+  
   
 
 
-  public get volunteer(): Volunteer | undefined {
-    return this._volunteer;
-  }
-
-  @Input()
-  public set volunteer(value: Volunteer | undefined) {
-    this._volunteer = value;
-    if (value) {
-      this.VolunteerForm = new FormGroup({
-        "id": new FormControl(this.volunteer?.id),
-        "firstName": new FormControl(this.volunteer?.firstName, [Validators.minLength(2), Validators.required]),
-        "lastName": new FormControl(this.volunteer?.lastName, [Validators.minLength(2), Validators.required]),
-      })
-    }
-  }
 
 
-
-  VolunteerForm: FormGroup = new FormGroup({});
-
-  saveNewVolunteer = () => {
-    this.volunteer= this.VolunteerForm.value;
-
-  }
-}

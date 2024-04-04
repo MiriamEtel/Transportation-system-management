@@ -20,8 +20,7 @@ export class VolunteersListComponent implements OnInit {
   }
   volunteers: Volunteer[] = [];
   
-  editVolunteer=(volunteer: Volunteer)=>{
-  this.router.navigate(['/volunteer/volunteer-detials',volunteer!.id])
-    
+  editVolunteer = (volunteer: Volunteer) => {
+    this.router.navigate(['/volunteer/volunteer-detials',volunteer!.id]);
   }
 }

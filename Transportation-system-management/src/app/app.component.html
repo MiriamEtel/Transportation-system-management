@@ -1,9 +1,11 @@
 
   <h1>{{title}}</h1>
-  <nav>
-    <ul class="nav-nav-tabs">
-        <li routerLink="/volunteer" routerLinkActive="active"><a>volunteers</a></li>
-        <li routerLink="/scheduling" routerLinkActive="active"><a>scheduling</a></li>
-    </ul>
-  </nav>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" routerLink="/volunteer" routerLinkActive="active">volunteers</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" routerLink="/scheduling" routerLinkActive="active">scheduling</a>
+    </li>
+  </ul>
   <router-outlet></router-outlet>

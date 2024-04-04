@@ -11,14 +11,14 @@ export class VolunteerService {
     {    
     }
 getAll():Observable<Volunteer[]>{
-    return this._http.get<Volunteer[]>("/api/volunteer/all")
+    return this._http.get<Volunteer[]>("http://localhost:5001/api/Volunteer/All")
 
 }
 getById(id:Number):Observable<Volunteer>{
-    return this._http.get<Volunteer>(`api/Volunteer/ById/${id}`);
+    return this._http.get<Volunteer>(`http://localhost:5001/api/Volunteer/ById/${id}`);
 }
 update(volunteer:Volunteer):Observable<boolean>{
-    return this._http.put<boolean>(`/api/volunteer/update`,Volunteer)
+    return this._http.put<boolean>(`http://localhost:5001/api/Volunteer/Update`,Volunteer)
 }
 
      
