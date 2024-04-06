@@ -1,1 +1,25 @@
+<<<<<<< HEAD
+<p>scheduling works!</p>
+
+<table>
+    <tr>
+    <th>Sun</th>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wedn</th>
+    <th>Thur</th>
+    </tr>
+    <tr>
+        <td *ngFor="let day of [0,1,2,3,4]">
+            <select name=`day+${day}` id=`day+${day}` [ngStyle]="{'background-color':chosen[day]!=undefined?'green':'red'}" >
+                <option *ngFor="let volunteer of getSchedulingForDay(day) " (change)="saveSchedulingForDay(day,volunteer)" >{{volunteer.firstName}} </option>
+            </select>
+        </td>
+        </tr>
+</table>
+<button class="btn btn-success" (click)="save_schduling()">save👍</button>
+
+
+=======
 <h1>scheduling works!</h1>
+>>>>>>> 924d705905ac731f2b4d478dd2f9bae18eac4ec6

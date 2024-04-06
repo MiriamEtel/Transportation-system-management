@@ -1,2 +1,2 @@
 import { Routes } from "@angular/router";
-export const routs: Routes=[];
+export const routes: Routes=[];

@@ -10,4 +10,4 @@ const routes : Routes=[];
     exports:[RouterModule]
 })
 
-export class schedulingRoutingModule { }
+export class SchedulingRoutingModule { }

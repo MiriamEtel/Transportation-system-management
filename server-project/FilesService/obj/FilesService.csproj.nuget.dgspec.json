@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+<<<<<<< HEAD:server-project/FilesService/obj/FilesService.csproj.nuget.dgspec.json
+    "C:\\Users\\The user\\Desktop\\‏‏פרויקט באנגולר - עותק\\server-project\\FilesService\\FilesService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\The user\\Desktop\\‏‏פרויקט באנגולר - עותק\\server-project\\FilesService\\FilesService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The user\\Desktop\\‏‏פרויקט באנגולר - עותק\\server-project\\FilesService\\FilesService.csproj",
+        "projectName": "FilesService",
+        "projectPath": "C:\\Users\\The user\\Desktop\\‏‏פרויקט באנגולר - עותק\\server-project\\FilesService\\FilesService.csproj",
+        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The user\\Desktop\\‏‏פרויקט באנגולר - עותק\\server-project\\FilesService\\obj\\",
+=======
+    "E:\\פרויקט באנגולר\\server-project\\my-server.csproj": {}
+  },
+  "projects": {
+    "E:\\פרויקט באנגולר\\server-project\\my-server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\פרויקט באנגולר\\server-project\\my-server.csproj",
+        "projectName": "my-server",
+        "projectPath": "E:\\פרויקט באנגולר\\server-project\\my-server.csproj",
+        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+        "outputPath": "E:\\פרויקט באנגולר\\server-project\\obj\\",
+>>>>>>> 924d705905ac731f2b4d478dd2f9bae18eac4ec6:server-project/obj/my-server.csproj.nuget.dgspec.json
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.321\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

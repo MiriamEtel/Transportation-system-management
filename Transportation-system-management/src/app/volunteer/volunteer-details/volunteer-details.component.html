@@ -1,0 +1,36 @@
+<h2> Thanks in advance for your willingness help !!!👍👍👍 </h2>
+<form [formGroup]="volunteerForm"><label for="first name">FirstName:</label>
+    <input formControlName="firstName"  type="text"  class="form-control" name="firstName" [value]="Volunteer?.firstName">
+    <ng-container *ngIf="volunteerForm.controls['firstName'].errors&&volunteerForm.controls['firstName'].touched">
+        <div class="form-group" *ngIf="volunteerForm.controls['firstName'].errors['required']">
+            this field is required
+        </div>
+        <div class="form-group" *ngIf="volunteerForm.controls['firstName'].errors['maxLength']">
+            this field is disabled getting more than 15 characters
+        </div>
+    </ng-container>
+    <label for="lastName">LastName:</label>
+    <input formControlName="lastName" type="text" placeholder="last name" class="form-control" name="lastName" [value]="Volunteer?.lastName">
+    <label for="tel">Phone:</label>
+    <input formControlName="tel"  type="text" placeholder="phone" class="form-control" name="tel" [value]="Volunteer?.tel">
+
+    <h3>mark the days you would like to volunteer : 🚗</h3>
+    <input type="checkbox"  [checked]=Volunteer?.lastName  value="Sun" formControlName="Sun" > Sun
+    <br>
+    <input type="checkbox"  name="days[]" value="Mon" formControlName="Mon" > Mon
+    <br>
+    <input type="checkbox"  name="days[]" value="Tues" formControlName="Tues" > Tues
+    <br>
+    <input type="checkbox"  name="days[]" value="Wedn" formControlName="Wedn" > Wedn
+    <br>
+    <input type="checkbox"  name="days[]" value="Thur" formControlName="Thur" > Thur
+    <br>
+    <button type="reset" class="btn btn-info" >clear 🗑️</button>
+    <button type="submit" class="btn btn-success" (click)="saveVolunteer()">save 👍</button>
+    
+
+</form>
+<div *ngIf="formNotValid">
+    this form has mistakes. please fix them
+
+</div>
