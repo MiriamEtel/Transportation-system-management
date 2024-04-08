@@ -1,5 +1,6 @@
 
-<h1>volunteer list : </h1>
+<h1>volunteers list  </h1>
+<p>By clicking the edit button, you can edit your details and choose the days you would like to volunteer :</p>
 <ul class="list-group">
     <li *ngFor="let volunteer of volunteers" 
     class="list-group-item" 
@@ -19,8 +20,8 @@
             <div class="col-3">
                 last name : {{volunteer.lastName}}
             </div>
-            <div class="col-2" style="color: rgb(214, 245, 14);">
-         <button class="btn btn-primary" (click)="editVolunteer(volunteer)">Edit📑</button>
+            <div class="col-2">
+         <button class="btn btn-primary"  (click)="editVolunteer(volunteer)">Edit📑</button>
             </div>
     </li>
 </ul>

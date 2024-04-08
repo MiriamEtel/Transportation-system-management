@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-<p>scheduling works!</p>
-
+<h1>Weekly volunteer schedule</h1>
+<p>Choose a volunteer on duty for each day From the list of volunteers who are interested Volunteer :</p>
+<form>
 <table>
     <tr>
     <th>Sun</th>
@@ -10,16 +10,16 @@
     <th>Thur</th>
     </tr>
     <tr>
-        <td *ngFor="let day of [0,1,2,3,4]">
-            <select name=`day+${day}` id=`day+${day}` [ngStyle]="{'background-color':chosen[day]!=undefined?'green':'red'}" >
-                <option *ngFor="let volunteer of getSchedulingForDay(day) " (change)="saveSchedulingForDay(day,volunteer)" >{{volunteer.firstName}} </option>
+        <td *ngFor="let day of [0,1,2,3,4]" [formGroup]="schedulingForm">
+            <select name=`day+${day}` [ngStyle]="{'background-color':chosen[day]!=-1?'green':'Orange'}"
+            (change)="chosen[day]=-2" onfocus="this.slectedIndex = -1">
+                <option *ngFor="let volunteer of getSchedulingForDay(day) " [value]="volunteer.id">{{volunteer.firstName}}</option>
             </select>
         </td>
         </tr>
 </table>
-<button class="btn btn-success" (click)="save_schduling()">save👍</button>
+<br>
+<button type="submit" class="btn btn-success" (click)="save_schduling()">save👍</button>
+</form>
 
 
-=======
-<h1>scheduling works!</h1>
->>>>>>> 924d705905ac731f2b4d478dd2f9bae18eac4ec6

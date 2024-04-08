@@ -196,3 +196,33 @@ C:\Users\The user\Desktop\‏‏פרויקט באנגולר - עותק\server-pr
 C:\Users\The user\Desktop\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.pdb
 C:\Users\The user\Desktop\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.genruntimeconfig.cache
 C:\Users\The user\Desktop\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\ref\my-server.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\appsettings.json
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\file\data.json
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\my-server.exe
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\my-server.deps.json
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\my-server.runtimeconfig.json
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\my-server.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\my-server.pdb
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\FilesService.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\bin\Debug\net6.0\FilesService.pdb
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.AssemblyInfo.cs
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\scopedcss\bundle\my-server.styles.css
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.csproj.CopyComplete
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\refint\my-server.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.pdb
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\my-server.genruntimeconfig.cache
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\my_server\obj\Debug\net6.0\ref\my-server.dll

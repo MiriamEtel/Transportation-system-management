@@ -94,3 +94,15 @@ C:\Users\The user\Desktop\‏‏פרויקט באנגולר - עותק\server-pr
 C:\Users\The user\Desktop\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\refint\FilesService.dll
 C:\Users\The user\Desktop\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\FilesService.pdb
 C:\Users\The user\Desktop\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\ref\FilesService.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\bin\Debug\net6.0\FilesService.deps.json
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\bin\Debug\net6.0\FilesService.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\bin\Debug\net6.0\FilesService.pdb
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\FilesService.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\FilesService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\FilesService.AssemblyInfo.cs
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\FilesService.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\FilesService.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\refint\FilesService.dll
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\FilesService.pdb
+C:\Users\The user\Desktop\אנגולר כמעט גמור מוצש\‏‏פרויקט באנגולר - עותק\server-project\FilesService\obj\Debug\net6.0\ref\FilesService.dll
