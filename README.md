@@ -3,7 +3,7 @@
 ### <span style="font-size: 18px;">This system is designed for managing volunteers and scheduling them within a weekly transportation framework.</span>
 
 # <span style="font-size: 35px; font-weight: bold;">Overview</span>
-<span>The Volunteer Management and Transportation Scheduling System allows administrators to manage volunteers and schedule their assignments throughout the week within the transportation system. It is intended for use by system administrators and software developers seeking efficient and organized solutions for volunteer management.</span>
+<span>The Volunteer Management and Transportation Scheduling System allows administrators to manage volunteers and schedule their assignments throughout the week within the transportation system. It is intended for use by system administrators seeking efficient and organized solutions for volunteer management.</span>
 
 # <span style="font-size: 35px; font-weight: bold;">Installation</span>
 ### <span style="font-size: 18px;">Local Installation Instructions:</span>
