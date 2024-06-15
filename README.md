@@ -8,14 +8,11 @@
 # <span style="font-size: 35px; font-weight: bold;">Installation</span>
 ### <span style="font-size: 18px;">Local Installation Instructions:</span>
 #### <span style="font-size: 6px;">Clone the repository from GitHub:</span>
-Copy code<br>
 git clone https://github.com/Transportation-system-management.git<br>
 cd Transportation-system-management<br>
 #### <span style="font-size: 6px;">Install dependencies:</span><br>
-Copy code<br>
 `npm install`<br>
 #### <span style="font-size: 6px;">Start the development server:</span><br>
-Copy code<br>
 `ng serve`<br>
 Access the application in your browser: http://localhost:4200/.
 
